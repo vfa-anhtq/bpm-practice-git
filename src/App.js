@@ -10,10 +10,10 @@ class App extends Component {
           <img src={error} className='App-logo' alt='logo' />
           <p className='errorMsg'>
             Try again!<br />
-            You are on branch <span className='branchName'>Develop</span>! <br />
+            You are on branch <span className='branchName'>master</span>! <br />
           </p>
           <p className='hint'>
-            $ Let's use git checkout to change branch to <span className='branchName'>feature/issue1-contentOfIssue1</span>
+            $ Let's use git checkout to change branch to <span className='branchName'>develop</span>
           </p>
         </header>
       </div>
