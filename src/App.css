@@ -31,7 +31,8 @@
   }
 }
 
-.errorMsg {
-  font-size: 2rem;
+.congratzName {
   font-weight: 700;
+  color: #47a06f;
+  font-size: 5rem;
 }
