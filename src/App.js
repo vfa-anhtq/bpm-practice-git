@@ -9,7 +9,11 @@ class App extends Component {
         <header className='App-header'>
           <img src={error} className='App-logo' alt='logo' />
           <p className='errorMsg'>
-            Try again!
+            Try again!<br />
+            You are on branch <span className='branchName'>Develop</span>! <br />
+          </p>
+          <p className='hint'>
+            $ Let's use git checkout to change branch to <span className='branchName'>feature/issue1-contentOfIssue1</span>
           </p>
         </header>
       </div>
